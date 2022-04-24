@@ -1,5 +1,13 @@
 import React from "react";
-import Input from "./Input";
+import {Input} from '../components/Input';
+
+import { storiesOf } from "@storybook/react";
+
+const stories=storiesOf('App Test',module);
+
+stories.add('App',()=>{
+return (<Button/>);
+});
 
 export default{
     title:'Input',
