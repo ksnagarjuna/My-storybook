@@ -1,6 +1,6 @@
 {
   "name": "jord-inc-storybook",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Sample Storybook With React",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -32,7 +32,20 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@syncfusion/ej2-base": "^20.1.50",
+    "@syncfusion/ej2-data": "^20.1.47",
+    "@syncfusion/ej2-react-buttons": "^20.1.50",
+    "@syncfusion/ej2-react-dropdowns": "^20.1.51",
+    "@syncfusion/ej2-react-grids": "^20.1.51",
+    "@syncfusion/ej2-react-querybuilder": "^20.1.51",
+    "jquery": "^3.6.0",
+    "underscore": "^1.13.3"
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import {Button} from "../components/Button";
+import Button from "./index";
 
 const stories=storiesOf('App Test',module);
 
@@ -10,7 +10,7 @@ return (<Button/>);
 });
 
 export  default {
-    title:'Button',
+    title:'My-storybook/Button',
     component:Button
 }
 

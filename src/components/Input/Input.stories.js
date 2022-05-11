@@ -1,5 +1,5 @@
 import React from "react";
-import {Input} from '../components/Input';
+import Input from './index';
 
 import { storiesOf } from "@storybook/react";
 
@@ -10,7 +10,7 @@ return (<Button/>);
 });
 
 export default{
-    title:'Input',
+    title:'My-storybook/Input',
     component:Input
 }
 
